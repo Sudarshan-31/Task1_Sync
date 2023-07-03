@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="task1.css">
+
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" > <img src="logo.png" class="logo" ></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox ">
+                <h2>BIGGER, BETTER, BURGER KING <br> Let's <span>EAT LIKE A KING</span> </h2>
+                <p>The best burgers offer a combination of tastes and textures – sweet, sour, salt – with a bit of crunch. The patty needs to be juicy, the bun soft but sturdy, and you want the meat/bun/accompaniment ratio to be even from first to last bite. Then you can add to your heart's content.</p>
+                <a href="#">Explore</a>
+                <div class="imgBox">
+                    <img src="img1.png" class="BURGER KING">
+                </div>
+            </div>
+           
+        </div>
+        <ul class="mimg">
+            <li><img src="mimg1.png" onclick="imgSlider('img1.png');"></li>
+            <li><img src="mimg2.png" onclick="imgSlider('img2.png');" ></li>
+            <li><img src="mimg3.png" onclick="imgSlider('img3.png');" ></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" ></a></li>
+
+            <li><a href="#"><img src="twitter.png" ></a></li>
+
+
+            <li><a href="#"><img src="instagram.png" ></a></li>
+        </ul>
+    
+    </section>
+    
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.BURGER').src = anything;
+
+    }
+</script>
+
+</body>
+</html>
